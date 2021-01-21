@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cc435ce7-72e2-494f-9559-9aa6c4a75244" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/algorithm/linkedlist/single.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/linkedlist/single.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/linkedlist/single_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/linkedlist/single_test.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/apps/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nKkbyu9KPNNgxSQELwwjDSPiGV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable..is.expanded" value="true" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager" selected="Go Test.TestList_Append in letsGo/algorithm/linkedlist">
+    <configuration name="TestList_Add in letsGo/algorithm/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="letsGo" />
+      <working_directory value="$PROJECT_DIR$/algorithm/linkedlist" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="letsGo/algorithm/linkedlist" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestList_Add\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestList_Append in letsGo/algorithm/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="letsGo" />
+      <working_directory value="$PROJECT_DIR$/algorithm/linkedlist" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="letsGo/algorithm/linkedlist" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestList_Append\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestList_IsEmpty in letsGo/algorithm/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="letsGo" />
+      <working_directory value="$PROJECT_DIR$/algorithm/linkedlist" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="letsGo/algorithm/linkedlist" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestList_IsEmpty\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestList_Length in letsGo/algorithm/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="letsGo" />
+      <working_directory value="$PROJECT_DIR$/algorithm/linkedlist" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="letsGo/algorithm/linkedlist" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestList_Length\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestList_Traverse in letsGo/algorithm/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="letsGo" />
+      <working_directory value="$PROJECT_DIR$/algorithm/linkedlist" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="letsGo/algorithm/linkedlist" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestList_Traverse\E$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestList_Append in letsGo/algorithm/linkedlist" />
+        <item itemvalue="Go Test.TestList_Add in letsGo/algorithm/linkedlist" />
+        <item itemvalue="Go Test.TestList_Traverse in letsGo/algorithm/linkedlist" />
+        <item itemvalue="Go Test.TestList_Length in letsGo/algorithm/linkedlist" />
+        <item itemvalue="Go Test.TestList_IsEmpty in letsGo/algorithm/linkedlist" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

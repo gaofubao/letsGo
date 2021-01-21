@@ -35,26 +35,49 @@ func TestList_Append(t *testing.T) {
 	l.Traverse()
 }
 
+func TestList_Insert(t *testing.T) {
+	l := List{}
+	l.Insert(-1, 1)
+	l.Insert(0, 2)
+	l.Insert(3, 4)
+	l.Insert(2, 3)
+	l.Traverse()
+}
 
-//func TestLinkedList_Insert(t *testing.T) {
-//	l0 := Create(5)
-//	fmt.Println(l0.GetLength())
-//
-//	node0 := Node{data: 10, next: nil}
-//	l0.Insert(12, &node0)
-//	l0.Traverse()
-//}
-//
-//func TestLinkedList_GetElement(t *testing.T) {
-//
-//}
-//
-//func TestA(t *testing.T) {
-//	for i := 0; i != 3; i++ {
-//		fmt.Println(i)
-//	}
-//}
+func TestList_Get(t *testing.T) {
+	l := List{}
+	data1, ok1 := l.Get(1)
+	fmt.Println(data1, ok1)
 
+	l.Add(1)
+	l.Add(2)
+	data2, _ := l.Get(1)
+	fmt.Println(data2)
+
+	l.Add(3)
+	data3, _ := l.Get(1)
+	fmt.Println(data3)
+}
+
+func TestList_Delete(t *testing.T) {
+	l := List{}
+	l.Delete(0)
+
+	l.Append(1)
+	l.Append(2)
+	l.Append(3)
+	l.Delete(0)
+	l.Delete(2)
+	l.Traverse()
+}
+
+func TestCreate(t *testing.T) {
+	l := Create(0)
+	l.Traverse()
+
+	l1 := Create(5)
+	l1.Traverse()
+}
 
 
 

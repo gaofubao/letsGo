@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc435ce7-72e2-494f-9559-9aa6c4a75244" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/linkedlist/single.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/linkedlist/single.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/linkedlist/single_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/linkedlist/single_test.go" afterDir="false" />
     </list>
@@ -40,11 +41,11 @@
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Go Test.TestList_Append in letsGo/algorithm/linkedlist">
-    <configuration name="TestList_Add in letsGo/algorithm/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestCreate in letsGo/algorithm/linkedlist">
+    <configuration name="TestCreate in letsGo/algorithm/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="letsGo" />
       <working_directory value="$PROJECT_DIR$/algorithm/linkedlist" />
       <framework value="gotest" />
@@ -52,7 +53,7 @@
       <package value="letsGo/algorithm/linkedlist" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestList_Add\E$" />
+      <pattern value="^\QTestCreate\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestList_Append in letsGo/algorithm/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -66,7 +67,7 @@
       <pattern value="^\QTestList_Append\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestList_IsEmpty in letsGo/algorithm/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestList_Delete in letsGo/algorithm/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="letsGo" />
       <working_directory value="$PROJECT_DIR$/algorithm/linkedlist" />
       <framework value="gotest" />
@@ -74,10 +75,10 @@
       <package value="letsGo/algorithm/linkedlist" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestList_IsEmpty\E$" />
+      <pattern value="^\QTestList_Delete\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestList_Length in letsGo/algorithm/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestList_Get in letsGo/algorithm/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="letsGo" />
       <working_directory value="$PROJECT_DIR$/algorithm/linkedlist" />
       <framework value="gotest" />
@@ -85,10 +86,10 @@
       <package value="letsGo/algorithm/linkedlist" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestList_Length\E$" />
+      <pattern value="^\QTestList_Get\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestList_Traverse in letsGo/algorithm/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestList_Insert in letsGo/algorithm/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="letsGo" />
       <working_directory value="$PROJECT_DIR$/algorithm/linkedlist" />
       <framework value="gotest" />
@@ -96,16 +97,16 @@
       <package value="letsGo/algorithm/linkedlist" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestList_Traverse\E$" />
+      <pattern value="^\QTestList_Insert\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCreate in letsGo/algorithm/linkedlist" />
+        <item itemvalue="Go Test.TestList_Delete in letsGo/algorithm/linkedlist" />
         <item itemvalue="Go Test.TestList_Append in letsGo/algorithm/linkedlist" />
-        <item itemvalue="Go Test.TestList_Add in letsGo/algorithm/linkedlist" />
-        <item itemvalue="Go Test.TestList_Traverse in letsGo/algorithm/linkedlist" />
-        <item itemvalue="Go Test.TestList_Length in letsGo/algorithm/linkedlist" />
-        <item itemvalue="Go Test.TestList_IsEmpty in letsGo/algorithm/linkedlist" />
+        <item itemvalue="Go Test.TestList_Get in letsGo/algorithm/linkedlist" />
+        <item itemvalue="Go Test.TestList_Insert in letsGo/algorithm/linkedlist" />
       </list>
     </recent_temporary>
   </component>

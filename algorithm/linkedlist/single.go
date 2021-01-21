@@ -86,63 +86,81 @@ func (l *List) Append(data object) {
 	}
 }
 
-
-
 // 在链表中插入一个节点
-func (list *List) Insert(i int, node *Node) {
-	length := list.Length()
-	if i <= 0 || i >= length {
-		list.Append(node)
+func (l *List) Insert(index int, data object) {
+	length := l.Length()
+	if index <= 0 || index >= length {
+		l.Append(data)
 	} else {
-		var j = 0
-		for cur := list.head; cur != nil; cur = cur.next {
-			j++
-			if i == j {
-				node.next = cur.next
-				cur.next = node
-				break
-			}
+		pos := 0
+		cur := l.head
+		for pos < index-1 {
+			cur = cur.next
+			pos ++
 		}
+		node := &Node{data: data}
+		node.next = cur.next
+		cur.next = node
 	}
 }
 
 // 获取指定位置的元素
-func (list *List) GetElement(i int) (object, error) {
-	if i >= list.Length() {
-		return 0, errors.New("超出链表长度")
+func (l *List) Get(index int) (data object, err error) {
+	if index < 0 || index >= l.Length() {
+		return 0, errors.New("不在链表内")
 	}
-
-	var j = 0
-	var data interface{}
-	for cur := list.head; cur != nil; cur = cur.next {
-		if i == j {
-			data = cur.data
-			break
-		}
-		j++
+	pos := 0
+	cur := l.head
+	for pos < index {
+		cur = cur.next
+		pos++
 	}
-	return data, nil
+	return cur.data, nil
 }
 
-// 查找指定元素
-func (list *List) Locate(e *Node) (i uint, err error) {
+// 查找指定元素，返回第一个相等的值
+func (l *List) Locate(data object) (index int, err error) {
+	// TODO 类型比较
 	return
 }
 
 // 删除指定位置的元素
-func (list *List) Delete() {
+func (l *List) Delete(index int) {
+	if l.IsEmpty() {
+		// TODO 异常处理
+		fmt.Println("空链表")
+		return
+	}
 
+	cur := l.head
+	if index <= 0 {
+		l.head = cur.next
+	} else if index >= l.Length() {
+		// TODO 异常处理
+		fmt.Println("超出链表长度")
+		return
+	} else {
+		pos := 0
+		for pos < index - 1 {
+			cur = cur.next
+			pos++
+		}
+		cur.next = cur.next.next
+	}
 }
 
 // 创建一个指定长度的链表
-func Create(l uint) *List {
-	list := List{nil}
-	var i uint = 0
+func Create(length int) *List {
+	if length <= 0 {
+		return &List{}
+	}
 
-	for i = 0; i < l; i++ {
+	list := List{}
+	index := 0
+	for index = 0; index < length; index++ {
 		data := rand.Int()
-		node := Node{data: data, next: nil}
-		list.Append(&node)
+		node := &Node{data: data}
+		list.Append(node.data)
 	}
 	return &list
 }

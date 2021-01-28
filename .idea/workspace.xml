@@ -42,7 +42,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Go Test.TestMergeTwoLists in letsGo/algorithm/linkedlist">
+  <component name="RunManager" selected="Go Test.TestLRUCache in letsGo/algorithm/lrucache">
     <configuration name="TestBinary in letsGo/algorithm/binarysearch" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="letsGo" />
       <working_directory value="$PROJECT_DIR$/algorithm/binarysearch" />
@@ -65,15 +65,15 @@
       <pattern value="^\QTestCreate\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestList_Delete in letsGo/algorithm/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLRUCache in letsGo/algorithm/lrucache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="letsGo" />
-      <working_directory value="$PROJECT_DIR$/algorithm/linkedlist" />
+      <working_directory value="$PROJECT_DIR$/algorithm/lrucache" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="letsGo/algorithm/linkedlist" />
+      <package value="letsGo/algorithm/lrucache" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestList_Delete\E$" />
+      <pattern value="^\QTestLRUCache\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestMergeTwoLists in letsGo/algorithm/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -100,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestLRUCache in letsGo/algorithm/lrucache" />
         <item itemvalue="Go Test.TestMergeTwoLists in letsGo/algorithm/linkedlist" />
         <item itemvalue="Go Test.TestSearch2 in letsGo/algorithm/binarysearch" />
         <item itemvalue="Go Test.TestBinary in letsGo/algorithm/binarysearch" />
         <item itemvalue="Go Test.TestCreate in letsGo/algorithm/linkedlist" />
-        <item itemvalue="Go Test.TestList_Delete in letsGo/algorithm/linkedlist" />
       </list>
     </recent_temporary>
   </component>

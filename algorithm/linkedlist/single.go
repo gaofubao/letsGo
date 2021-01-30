@@ -8,14 +8,16 @@ import (
 
 /*
 实现一个单链表，包括以下操作：
-- Init(*L)
-- isEmpty(L)
-- clearList(*L)
-- getElem(L, i, *e)
-- locateElem(L, e)
-- listInsert()
-- listDelete()
-- listLength()
+- Clear()
+- IsEmpty()
+- Length()
+- Traverse()
+- Add()
+- Append()
+- Insert()
+- Get()
+- Locate()
+- Delete()
 */
 
 // 1 -> 2 -> 3 -> 4 -> nil
@@ -31,6 +33,11 @@ type Node struct {
 // 定义单链表
 type List struct {
 	head *Node
+}
+
+// 清空链表
+func (l *List) Clear() {
+	l.head = nil
 }
 
 // 判断链表是否为空

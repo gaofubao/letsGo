@@ -5,6 +5,17 @@ import (
 	"testing"
 )
 
+func TestList_Clear(t *testing.T) {
+	l := List{}
+	l.Clear()
+	l.Traverse()
+
+	l.Append(1)
+	l.Append(2)
+	l.Clear()
+	l.Traverse()
+}
+
 func TestList_IsEmpty(t *testing.T)  {
 	l := List{}
 	fmt.Println(l.IsEmpty())

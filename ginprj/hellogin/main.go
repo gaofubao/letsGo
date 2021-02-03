@@ -1,23 +1,26 @@
 package main
 
 import (
+	"encoding/json"
 	"github.com/gin-gonic/gin"
 )
 
 func main() {
-	engine := gin.Default()
-	
-	engine.Handle("GET", "/hello", func(context *gin.Context) {
-		
-	})
-	
-	
-	
-	engine.GET("/ping", func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"message": "pong",
-		})
+	r := gin.Default()
 
+	r.GET("/header", HandleHeader)
+	r.GET("/ping", HandlePing)
+
+	r.Run()
+}
+
+func HandlePing(c *gin.Context)  {
+	c.JSON(200, gin.H{
+		"message": "pong",
 	})
-	engine.Run()
+}
+
+func HandleHeader(c *gin.Context) {
+	headerJson, _ := json.Marshal(c.Request.Header)
+	c.Writer.WriteString(string(headerJson))
 }

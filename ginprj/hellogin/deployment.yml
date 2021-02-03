@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hellogi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hellogin
+  template:       
+    metadata:
+      labels:
+        app: hellogin 
+    spec:           
+      containers:
+      - name: hellogin
+        image: hellogin 
+        imagePullPolicy: IfNotPresent
+        ports:
+          - containerPort: 8080 

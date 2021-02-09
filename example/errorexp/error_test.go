@@ -52,22 +52,6 @@ func TestEcho(t *testing.T)  {
 	}
 }
 
-func Sqrt(f float64) (float64, error) {
-	if f < 0 {
-		//return 0, errors.New("math: square root of negative number")
-		return 0, fmt.Errorf("math: square root of negative number %g", f)
-	}
-	return f, nil
-}
-
-func TestSqrt(t *testing.T)  {
-	f, err := Sqrt(-1)
-	if err != nil {
-		fmt.Println(err)
-	}
-	fmt.Println(f)
-}
-
 // 怎样判断一个错误值具体代表的是哪一类错误？
 
 func underlyingError(err error) error {
